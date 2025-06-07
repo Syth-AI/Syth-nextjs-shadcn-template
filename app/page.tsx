@@ -1,14 +1,7 @@
 export default function Home() {
   return (
-    <div
-      style={{
-        maxWidth: 1280,
-        margin: '0 auto',
-        padding: '2rem',
-        textAlign: 'center',
-      }}
-    >
-      Start prompting.
+    <div className="min-h-screen flex items-center justify-center">
+      <h1 className="text-4xl font-bold">Start Prompting!</h1>
     </div>
   );
 }
