@@ -21,10 +21,10 @@
     ],
     "paths": {
       "@/*": ["./*"],
+      "@/app/*": ["./app/*"],
       "@/components/*": ["./components/*"],
       "@/lib/*": ["./lib/*"],
       "@/hooks/*": ["./hooks/*"],
-      "@/app/*": ["./app/*"],
       "@/types/*": ["./types/*"]
     }
   },
