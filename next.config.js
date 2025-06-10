@@ -8,6 +8,8 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react'],
   },
+  // Disable SWC minifier to avoid binary loading issues
+  swcMinify: false,
 };
 
 module.exports = nextConfig;
